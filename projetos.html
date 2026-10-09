@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Conheça os projetos de conscientização, acolhimento e voluntariado da ELLA+."
+    />
+    <title>Projetos | ELLA+</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <!-- Cabeçalho com logo e menu -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="ELLA+ - página inicial">
+          <img
+            src="imagens/logo-ella.svg"
+            alt="ELLA+, informação, acolhimento e esperança"
+            width="172"
+            height="52"
+          />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="menu-principal"
+        >
+          <span class="menu-toggle-label">Menu</span>
+          <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+        <nav class="site-nav" id="menu-principal" aria-label="Navegação principal">
+          <a href="index.html">Início</a> <a href="projetos.html" aria-current="page">Projetos</a>
+          <a class="nav-cta" href="cadastro.html">Seja voluntária</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main id="conteudo">
+      <!-- Título da página -->
+      <section class="page-intro container" aria-labelledby="titulo-principal">
+        <p class="eyebrow">O que fazemos</p>
+        <h1 id="titulo-principal">Projetos com cuidado em cada passo.</h1>
+        <p>
+          Conheça as iniciativas da ELLA+ para levar informação, acolhimento e esperança à
+          comunidade.
+        </p>
+      </section>
+
+      <!-- Lista dos projetos -->
+      <section class="section container project-list" aria-label="Projetos sociais da ELLA+">
+        <article class="project-row">
+          <figure class="project-image">
+            <picture
+              ><source srcset="imagens/campanha-ella-3.webp" type="image/webp" />
+              <img
+                src="imagens/campanha-ella-3.jpg"
+                alt="Duas mulheres se abraçam em uma ação de apoio"
+                width="1200"
+                height="800"
+            /></picture>
+          </figure>
+          <div class="project-copy">
+            <p class="eyebrow">Conscientização</p>
+            <h2>Laço Rosa</h2>
+            <p>
+              Campanhas de conscientização que levam informação para a comunidade, especialmente
+              durante o Outubro Rosa.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-row project-row-reverse">
+          <figure class="project-image">
+            <picture
+              ><source srcset="imagens/projeto-ong.webp" type="image/webp" />
+              <img
+                src="imagens/projeto-ong.jpg"
+                alt="Profissional acolhe uma mulher em uma conversa de apoio"
+                width="1200"
+                height="800"
+                loading="lazy"
+            /></picture>
+          </figure>
+          <div class="project-copy">
+            <p class="eyebrow">Acolhimento</p>
+            <h2>ELLA Acolhe</h2>
+            <p>
+              Ações de acolhimento e apoio para pacientes e familiares durante o período de
+              tratamento, com escuta e respeito.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-row">
+          <figure class="project-image">
+            <picture
+              ><source srcset="imagens/projeto-ong-2.webp" type="image/webp" />
+              <img
+                src="imagens/projeto-ong-2.jpg"
+                alt="Mulheres reunidas em uma atividade educativa"
+                width="1200"
+                height="800"
+                loading="lazy"
+            /></picture>
+          </figure>
+          <div class="project-copy">
+            <p class="eyebrow">Educação</p>
+            <h2>Juntas pela Vida</h2>
+            <p>
+              Eventos e ações educativas para divulgar informações sobre saúde e incentivar a busca
+              por atendimento profissional quando necessário.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-row project-row-reverse">
+          <figure class="project-image">
+            <picture
+              ><source srcset="imagens/campanha-ella-2.webp" type="image/webp" />
+              <img
+                src="imagens/campanha-ella-2.jpg"
+                alt="Grupo de mulheres reunidas em uma roda de apoio"
+                width="1200"
+                height="800"
+                loading="lazy"
+            /></picture>
+          </figure>
+          <div class="project-copy">
+            <p class="eyebrow">Solidariedade</p>
+            <h2>Doe Esperança</h2>
+            <p>
+              Campanha de arrecadação para apoiar ações sociais da ELLA+ e pessoas em situação de
+              vulnerabilidade.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Campanha de doação (fictícia) -->
+      <section class="section section-pink" id="campanha" aria-labelledby="campanha-titulo">
+        <div class="container campaign-grid">
+          <div>
+            <p class="eyebrow">Apoie a causa</p>
+            <h2 id="campanha-titulo">Outubro Rosa</h2>
+            <p>
+              A campanha Outubro Rosa mobiliza recursos para fortalecer as ações de informação,
+              acolhimento e apoio da ELLA+.
+            </p>
+          </div>
+          <div class="campaign-progress">
+            <div class="campaign-numbers">
+              <span>Arrecadado <strong>R$ 6.500</strong></span
+              ><span>Meta <strong>R$ 10.000</strong></span>
+            </div>
+            <progress value="65" max="100" aria-label="65 por cento da meta alcançada">
+              65%
+            </progress>
+            <p class="progress-caption"><strong>65%</strong> da meta alcançada</p>
+            <a class="button button-outline" href="cadastro.html"
+              >Quero ser voluntária <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Galeria de fotos -->
+      <section class="section container" aria-labelledby="galeria-titulo">
+        <div class="section-heading">
+          <p class="eyebrow">Registros da causa</p>
+          <h2 id="galeria-titulo">Galeria ELLA+</h2>
+        </div>
+        <div class="gallery-grid">
+          <figure>
+            <picture
+              ><source srcset="imagens/campanha-ella-3.webp" type="image/webp" />
+              <img
+                src="imagens/campanha-ella-3.jpg"
+                alt="Duas mulheres compartilhando um abraço"
+                width="1200"
+                height="800"
+                loading="lazy"
+            /></picture>
+            <figcaption>Uma rede de apoio</figcaption>
+          </figure>
+
+          <figure>
+            <picture
+              ><source srcset="imagens/projeto-ong-2.webp" type="image/webp" />
+              <img
+                src="imagens/projeto-ong-2.jpg"
+                alt="Atividade em grupo com mulheres"
+                width="1200"
+                height="800"
+                loading="lazy"
+            /></picture>
+            <figcaption>Encontros de acolhimento</figcaption>
+          </figure>
+
+          <figure>
+            <picture
+              ><source srcset="imagens/projeto-ong-3.webp" type="image/webp" />
+              <img
+                src="imagens/projeto-ong-3.jpg"
+                alt="Profissional de saúde em espaço de orientação"
+                width="1200"
+                height="800"
+                loading="lazy"
+            /></picture>
+            <figcaption>Informação com cuidado</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Como doar -->
+      <section class="section container" id="como-doar" aria-labelledby="doar-titulo">
+        <div class="section-heading">
+          <p class="eyebrow">Apoie a causa</p>
+          <h2 id="doar-titulo">Como doar</h2>
+        </div>
+        <div class="principles-grid">
+          <article class="principle">
+            <h3>Doação em dinheiro</h3>
+            <p>
+              Pela campanha Outubro Rosa, o valor ajuda a manter as ações de informação, acolhimento
+              e apoio da ELLA+.
+            </p>
+          </article>
+
+          <article class="principle">
+            <h3>Doação de itens</h3>
+            <p>
+              Produtos de higiene e itens de conforto para pacientes em tratamento ajudam nas ações
+              do ELLA Acolhe.
+            </p>
+          </article>
+
+          <article class="principle">
+            <h3>Divulgue a causa</h3>
+            <p>
+              Compartilhe nossas campanhas com amigos e familiares. Quanto mais gente souber, mais
+              longe a informação chega.
+            </p>
+          </article>
+        </div>
+        <p class="progress-caption">Neste projeto acadêmico, a doação é apenas uma simulação.</p>
+      </section>
+
+      <!-- Chamada para voluntariado -->
+      <section class="volunteer-band" aria-labelledby="voluntariado-titulo">
+        <div class="container volunteer-inner">
+          <div>
+            <p class="eyebrow">Voluntariado</p>
+            <h2 id="voluntariado-titulo">Faça parte da ELLA+.</h2>
+            <p>Ajude a levar informação, acolhimento e esperança para mais pessoas.</p>
+          </div>
+          <a class="button" href="cadastro.html"
+            >Quero ser voluntária <span aria-hidden="true">→</span></a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="footer-brand" href="index.html">ELLA<span>+</span></a>
+        <p>Informação, acolhimento e esperança.</p>
+        <nav class="footer-nav" aria-label="Links do rodapé">
+          <a href="index.html">Início</a><a href="cadastro.html">Voluntariado</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
